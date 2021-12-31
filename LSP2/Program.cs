@@ -6,6 +6,10 @@ namespace LSP2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("LSP - Liskov Subtitution Principle\n");
+
+            Console.WriteLine("Las clases que hereden de otras clases pueden ser utilizadas por el comportamiento minimo de la clase\n");
+
             Console.WriteLine("1- Animal");
             Animal animal = new Animal();
             animal.Noise = "AWWWN";
